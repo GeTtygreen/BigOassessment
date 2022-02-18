@@ -1,0 +1,4 @@
+I think the doublerInsert scales better
+The reason why doublerAppend scales better than doublerInsert is because when you append a value into an array using the .push(), it adds it to the end of the array.
+the .unshift method, which adds it to the beginning of the array, requiring the rest of the array to shift up an index, which
+creates the massive scaling.
